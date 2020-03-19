@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavslideComponent } from './navslide/navslide.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavslideComponent
+    NavslideComponent,
+    HeaderComponent
   ],
   imports: [
     FormsModule,
