@@ -5,12 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavslideComponent } from './navslide/navslide.component';
 import { HeaderComponent } from './header/header.component';
+import { BannerPicComponent } from './banner-pic/banner-pic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavslideComponent,
-    HeaderComponent
+    HeaderComponent,
+    BannerPicComponent
   ],
   imports: [
     FormsModule,

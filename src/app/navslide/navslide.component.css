@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  z-index: 2;
 }
 #curtain{
   position: fixed;
@@ -24,42 +25,42 @@
   display: block;
   transform-origin: bottom left;
   transition: 0.5s ease-in-out;
-  transform: rotate(-90deg);
+  transform: translateX(3000px);
 }
 #curtain span:nth-child(2){
   background: #ff1f6b;
-  transform: rotate(-90deg);
+  transform: translateX(3000px);
   transition-delay: 0.2s;
 }
 #curtain span:nth-child(3){
   background: #219dff;
-  transform: rotate(-90deg);
+  transform: translateX(3000px);
   transition-delay: 0.1s;
 }
 #curtain span:nth-child(1){
   background: #FFFF00;
-  transform: rotate(-90deg);
+  transform: translateX(3000px);
   transition-delay: 0.3s;
 }
 #curtain.active span:nth-child(1){
   z-index: 2;
   transition-delay: 0.1s;
-  transform: rotate(0deg);
+  transform: translateX(0px);
 }
 #curtain.active span:nth-child(2){
   z-index: 2;
   transition-delay: 0.2s;
-  transform: rotate(0deg);
+  transform: translateX(0px);
 }
 #curtain.active span:nth-child(3){
   z-index: 3;
   transition-delay: 0.3s;
-  transform: rotate(0deg);
+  transform: translateX(0px);
 }
 .toggle{
   position: fixed;
   top: 20px;
-  right: 45px;
+  right: 20px;
   width:  70px;
   height: 64px;
   background: transparent url(iconfinder_menu-alt_134216.png);

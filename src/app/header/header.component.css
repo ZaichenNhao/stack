@@ -1,5 +1,10 @@
 .logo{
-  height: 64px;
   width: 64px;
-  background: "Logo2.png"
+  height: 64px;
+  left: 15px;
+  top: 15px;
+  margin-left: 0px;
+  background: transparent url(micdown.png);
+  position: fixed;
+  z-index: 2;
 }
