@@ -7,6 +7,7 @@ import { NavslideComponent } from './navslide/navslide.component';
 import { HeaderComponent } from './header/header.component';
 import { BannerPicComponent } from './banner-pic/banner-pic.component';
 import { BodyParaComponent } from './body-para/body-para.component';
+import { NewMenuComponent } from './new-menu/new-menu.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BodyParaComponent } from './body-para/body-para.component';
     NavslideComponent,
     HeaderComponent,
     BannerPicComponent,
-    BodyParaComponent
+    BodyParaComponent,
+    NewMenuComponent
   ],
   imports: [
     FormsModule,

@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+ul{
+  background: #87cefa;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  z-index: 2;
+}
+li a{
+  font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+  float: right;
+  margin-right: 100px;
+  margin-top: 30px;
+  font-size: 2em;
+  color: white
+}
+
