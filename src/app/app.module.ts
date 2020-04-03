@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavslideComponent } from './navslide/navslide.component';
-import { HeaderComponent } from './header/header.component';
 import { BannerPicComponent } from './banner-pic/banner-pic.component';
-import { BodyParaComponent } from './body-para/body-para.component';
 import { NewMenuComponent } from './new-menu/new-menu.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavslideComponent,
-    HeaderComponent,
     BannerPicComponent,
-    BodyParaComponent,
-    NewMenuComponent
+    NewMenuComponent,
+    NavbarComponent
   ],
   imports: [
     FormsModule,

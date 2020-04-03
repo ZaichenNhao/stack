@@ -1,0 +1,22 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+app-navbar{
+  display: block;
+}
+
+app-navslide{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+  app-navbar{
+    display: none;
+  }
+
+  app-navslide{
+    display: block;
+  }
+}
