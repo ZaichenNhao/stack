@@ -92,7 +92,7 @@
   list-style: none;
   margin: 10px 0;
 }
-#curtain .menu-items li a{
+#curtain .menu-items li button{
   text-decoration: none;
   color: #fff;
   font-size: 5em;
@@ -104,7 +104,7 @@
   cursor: pointer;
   position: relative;
 }
-#curtain .menu-items li a:before{
+#curtain .menu-items li button:before{
   content: '';
   width: 0px;
   height:5px;
@@ -114,7 +114,7 @@
   left: 0;
   transition: 0.5s
 }
-#curtain .menu-items li:hover a:before{
+#curtain .menu-items li:hover button:before{
   width:50%;
   transform: translateX(100%)
 }

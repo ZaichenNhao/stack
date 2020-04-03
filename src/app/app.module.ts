@@ -5,16 +5,16 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavslideComponent } from './navslide/navslide.component';
 import { BannerPicComponent } from './banner-pic/banner-pic.component';
-import { NewMenuComponent } from './new-menu/new-menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { BodyparaMainComponent } from './bodypara-main/bodypara-main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavslideComponent,
     BannerPicComponent,
-    NewMenuComponent,
-    NavbarComponent
+    NavbarComponent,
+    BodyparaMainComponent
   ],
   imports: [
     FormsModule,
