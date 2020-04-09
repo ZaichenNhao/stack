@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  font-size: 2em;
+  text-align: center;
+  z-index: 2;
+  font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.body-container{
+  font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top:40px;
+}

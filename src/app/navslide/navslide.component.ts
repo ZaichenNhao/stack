@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-navslide',
@@ -13,5 +14,13 @@ export class NavslideComponent implements OnInit {
   toggle(){
     var curtain = document.getElementById('curtain');
     curtain.classList.toggle('active')
+  }
+
+  constructor(private router:Router){}
+
+  goToPage(pageName:string):void{
+    this.router.navigate([`${pageName}`]);
+
+  }
   }
 }
