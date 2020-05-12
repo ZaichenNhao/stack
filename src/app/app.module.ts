@@ -7,7 +7,6 @@ import { NavslideComponent } from './navslide/navslide.component';
 import { BannerPicComponent } from './banner-pic/banner-pic.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BodyparaMainComponent } from './bodypara-main/bodypara-main.component';
-import { AboutHeaderComponent } from './about-header/about-header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { AboutHeaderComponent } from './about-header/about-header.component';
     BannerPicComponent,
     NavbarComponent,
     BodyparaMainComponent,
-    AboutHeaderComponent
   ],
   imports: [
     FormsModule,

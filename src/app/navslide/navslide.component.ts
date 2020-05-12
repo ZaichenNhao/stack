@@ -15,12 +15,4 @@ export class NavslideComponent implements OnInit {
     var curtain = document.getElementById('curtain');
     curtain.classList.toggle('active')
   }
-
-  constructor(private router:Router){}
-
-  goToPage(pageName:string):void{
-    this.router.navigate([`${pageName}`]);
-
-  }
-  }
 }
